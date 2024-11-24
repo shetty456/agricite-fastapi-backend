@@ -1,0 +1,44 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.egg
+*.eggs
+dist/
+build/
+eggs/
+*.egg-info/
+*.idea/
+*.vscode/
+
+# Poetry
+.poetry/
+poetry.lock
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Tortoise ORM generated files
+migrations/
+
+# FastAPI specific
+*.db
+*.sqlite
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local settings
+local_settings.py
