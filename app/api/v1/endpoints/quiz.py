@@ -1,6 +1,6 @@
 from typing import List, Optional
 from fastapi import APIRouter, HTTPException
-from app.db.models import Module, Tag, Content, Question, Series
+from app.db.models import Module, Tag, Content, Question
 from app.schemas.schemas import (
     ContentResponseSchema,
     GetModulesRequestSchema,
